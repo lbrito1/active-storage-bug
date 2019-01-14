@@ -60,5 +60,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   # This line avoids the hang (does not exist by default)
-  config.active_job.queue_adapter = :inline
+  # config.active_job.queue_adapter = :inline
 end
